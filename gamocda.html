@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: 'kanit-regular';
+            src: url(Kanit-Regular.ttf);
+            font-weight: 400;
+        }
+
+        @font-face {
+            font-family: 'kanit-bold';
+            src: url(Kanit-Regular.ttf);
+            font-weight: bold;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'kanit-regular';
+        }
+
+        a {
+            text-decoration: none;
+            color: #eb1d24;
+        }
+
+        .container {
+            width: 1090px;
+            margin: 0 auto;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            gap: 15px;
+        }
+
+        .header-logo a img {
+            width: 200px;
+        }
+
+        .navigation {
+            display: flex;
+            width: 100%;
+        }
+
+        .nav-desktop {
+            width: 100%;
+            display: flex;
+            list-style: none;
+            background-image: linear-gradient(to bottom, #094785 50%, #05529f 50%);
+            justify-content: space-evenly;
+            padding: 9px 15px;
+            text-transform: uppercase;
+            font-size: .95rem;
+            border-radius: 5px;
+        }
+
+        .nav-desktop a {
+            color: white;
+            transition: 300ms;
+        }
+
+        .nav-desktop a:hover {
+            color: #eb1d24;
+        }
+        
+        .last-section {
+            flex-direction: column;
+        }
+
+        .last-section {
+            display: flex;
+            gap: 30px;
+            margin-top: 20px;
+            padding: 0 20px;
+        }
+
+        .last-section-container {
+            border-top: 1px solid gray;
+            padding-top: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 50%;
+        }
+
+        
+        
+        .table {
+            border-collapse: collapse;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        
+
+        .table td {
+            border: 1px solid #958e8e;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+
+        
+
+        .mw-angarishi {
+            color: rgb(61, 160, 61);
+        }
+        .wt-angarishi {
+            color: red;
+        }
+        .yv-angarishi {
+            color: rgb(236, 236, 103);
+        }
+        .nac-angarishi {
+            color: #a2a2a2;
+        }
+        .video-section {
+                padding: 30px;
+            }
+
+        .fexburtelebi {
+            padding-left: 50%;
+            padding-top: 30%;
+        }
+
+        .ramoss {
+            border: 1px solid grey; 
+            
+        }
+
+        .news {
+            display: flex;
+        }
+
+        .footer {
+                justify-content: center;
+            }
+
+            .footer p:nth-child(2) {
+                display: none;
+            }
+
+            @media screen and (max-width: 512px){
+                .news,body,.container, table, .ramoss .nav-desktop, .video-section{
+                    display: grid;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .ramoss {
+                    display: block;
+                    max-width: 100%;
+                    
+            }
+
+            .header {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .header-logo a img {
+                width: 250px;
+                margin-left: -30px;
+            }
+            
+            
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="fexburtelebi">
+            <a href="gamocda.html"><img src="YOUR TEXT HERE_.png" alt="" width="300" ></a>
+        </div>
+        <div class="header-logo">
+            <a href="gamocda.html"><img src="logo.png" alt=""></a>
+        </div>
+        <header class="header">
+            <nav class="navigation">
+                <ul class="nav-desktop">
+                    <li><a href="#"><img src="home_icon.png" alt=""></a></li>
+                    <li><a href="#">მთავარი</a></li>
+                    <li><a href="#">მულტიმედია</a></li>
+                    <li><a href="#">გუნდი</a></li>
+                    <li><a href="#">სეზონი</a></li>
+                    <li><a href="#">საიტი</a></li>
+                    <li><a href="#">ფან-კლუბი</a></li>
+                </ul>
+                <div class="nav-mobile">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+            </nav>
+        </header>
+        <div class="news">
+            <div class="ramoss">
+                <img src="news_image.png" alt="">
+                <p>სერხიო რამოსი:  რეალში ბედნიერი ვარ</p>
+                <img src="dro_icon.png" alt="">
+                <p style="display: inline-block;"></p>
+             </div>
+             <div class="ramoss">
+                <img src="news_image.png" alt="">
+                <p>სერხიო რამოსი:  რეალში ბედნიერი ვარ</p>
+                <img src="dro_icon.png" alt="">
+                <p style="display: inline-block;"></p>
+             </div>
+             <div class="ramoss">
+                <img src="news_image.png" alt="">
+                <p>სერხიო რამოსი:  რეალში ბედნიერი ვარ</p>
+                <img src="dro_icon.png" alt="">
+                <p style="display: inline-block;"></p>
+             </div>
+        </div>
+        <div class="news">
+            <div class="ramoss">
+                <img src="news_image.png" alt="">
+                <p>სერხიო რამოსი:  რეალში ბედნიერი ვარ</p>
+                <img src="dro_icon.png" alt="">
+                <p style="display: inline-block;"></p>
+             </div>
+             <div class="ramoss">
+                <img src="news_image.png" alt="">
+                <p>სერხიო რამოსი:  რეალში ბედნიერი ვარ</p>
+                <img src="dro_icon.png" alt="">
+                <p style="display: inline-block;"></p>
+             </div>
+             <div class="ramoss">
+                <img src="news_image.png" alt="">
+                <p>სერხიო რამოსი:  რეალში ბედნიერი ვარ</p>
+                <img src="dro_icon.png" alt="">
+                <p style="display: inline-block;"></p>
+             </div>
+        </div>
+        <div class="news">
+            <div class="ramoss">
+                <img src="news_image.png" alt="">
+                <p>სერხიო რამოსი:  რეალში ბედნიერი ვარ</p>
+                <img src="dro_icon.png" alt="">
+                <p style="display: inline-block;"></p>
+             </div>
+             <div class="ramoss">
+                <img src="news_image.png" alt="">
+                <p>სერხიო რამოსი:  რეალში ბედნიერი ვარ</p>
+                <img src="dro_icon.png" alt="">
+                <p style="display: inline-block;"></p>
+             </div>
+             <div class="ramoss">
+                <img src="news_image.png" alt="">
+                <p>სერხიო რამოსი:  რეალში ბედნიერი ვარ</p>
+                <img src="dro_icon.png" alt="">
+                <p style="display: inline-block;"></p>
+             </div>
+        </div>
+    
+        <div class="last-section">
+            <div class="last-section-container" style="width: 100%;">
+                <table class="table">
+                    <tr>
+                        <td>რეალი  VS  ბარსელონა</td> 
+                        <td>19.06.2019 23:45</td>
+                        <td class="mw-angarishi">3-1</td>
+                    </tr>
+                    <tr>
+                        <td>ბეტისი  VS  რეალი</td>
+                        <td>22.06.2019  23:45</td>
+                        <td class="wt-angarishi">2-0</td>
+                    </tr>
+                    <tr>
+                        <td>რეალი  VS  ატლეტიკო</td>
+                        <td>25.06.2019  22:15</td>
+                        <td class="yv-angarishi">0-0</td>
+                    </tr>
+                    <tr>
+                        <td>ვალენსია  VS  ბარსელონა</td>
+                        <td>28.06.2019  23:45</td>
+                        <td class="mw-angarishi">4-3</td>
+                    </tr>
+                    <tr>
+                        <td>რეალი  VS  ხეტაფე</td>
+                        <td>30.06.2019 23:45</td>
+                        <td class="mw-angarishi">3-1</td>
+                    </tr>
+                    <tr>
+                        <td>სოსიედადი  VS  ბარსელონა</td>
+                        <td>03.07.2019</td>
+                        <td class="nac-angarishi">VS</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="last-section-container">
+    
+                <div class="video-section">
+                    <video src="Real madrid.mp4" controls muted autoplay loop></video>
+                </div>
+    
+                <footer class="footer">
+                    <p>დაიცავით საავტორო უფლებები 2019</p>
+                    <p>პროექტზე იმუშავეს: STUDIO-GB Unicode</p>
+                </footer>
+
+                
+    </div>
+
+   
+    
+
+</body>
+</html>
